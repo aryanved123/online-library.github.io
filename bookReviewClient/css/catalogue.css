@@ -1,0 +1,208 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to right, #a3d2e2, #cbe8f8);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    background: #34495e;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background: #1abc9c;
+    transform: translateY(-2px);
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 20px; /* Add left margin to shift to the left */
+    overflow-y: auto; /* Add vertical scrolling */
+    max-height: calc(100vh - 40px); /* Limit the max height to viewport height minus padding */
+}
+
+
+
+.description-section,
+.book-grid-section {
+    background-color: white; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow border */
+    max-width: 800px; /* Limit width to prevent overflow */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add spacing between sections */
+    margin-top: 50px;
+}
+.description-section {
+    text-align: center;
+    margin-left: 300px;
+}
+
+.book-grid {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow books to wrap */
+    justify-content: space-around; /* Space books evenly */
+}
+
+.book {
+    flex: 0 1 10px; /* Set initial width to 100px */
+    margin: 10px; /* Adjust margin between books */
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex; /* Use flexbox */
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #34495e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1abc9c;
+}
+/* CSS for search bar */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* On hover, change background color */
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+/* Adjust the favorites section */
+.favorites-section {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 97%; /* Span the width of the screen */
+}
+
+
+.favorites-section .favorites {
+    display: flex;
+    flex-wrap: wrap; /* Allow favorites to wrap */
+    justify-content: flex-start; /* Start from the left */
+    margin: 10px; /* Adjust margin between books */
+
+}
+
+/* Adjust margin and padding for books in the favorites section */
+.favorites-section .favorites .book {
+    margin: 10px; /* Adjust margin between books */
+    padding: 8px; /* Adjust padding */
+    flex: 0 1 auto; /* Allow books to grow and shrink */
+    max-width: 140px; /* Limit the width of each book */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+.favorites-section .favorites .book .buttons {
+    display: none; /* Hide the buttons */
+}
+/* Adjust the favorites section */
+
+
+/* Adjust the book grid section */
+.book-grid-section {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-grow: 1; /* Expand to fill available space */
+    max-width: 100%; /* Ensure the section does not overflow */
+}
+/* Style for the favorites button */
+.favorite-button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #333333;
+}
+
+/* Style for the favorites button when favorited (red color) */
+.favorite-button.favorited {
+    color: red;
+}

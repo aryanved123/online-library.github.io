@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Review - Our Bookstore</title>
+    <link rel="stylesheet" href="css/review.css">
+</head>
+<body>
+<header>
+    <h1>Customer Review</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="account.html">My Account</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="search-container">
+    <label for="searchInput"></label>
+    <input type="text" id="searchInput" placeholder="Search by title...">
+    <button onclick="searchBooks()" class="search-button"><i class="fas fa-search"></i>Search</button>
+</div>
+<main>
+    <div id="book-grid-section" class="container">
+        <!-- Books will be added here dynamically -->
+    </div>
+
+
+    <div class="container">
+        <h1>Leave a Review</h1>
+        <form id="reviewForm">
+            <div class="rating">
+                <input type="radio" name="rating" id="star10" value="10">
+                <label for="star10">★</label>
+                <input type="radio" name="rating" id="star9" value="9">
+                <label for="star9">★</label>
+                <input type="radio" name="rating" id="star8" value="8">
+                <label for="star8">★</label>
+                <input type="radio" name="rating" id="star7" value="7">
+                <label for="star7">★</label>
+                <input type="radio" name="rating" id="star6" value="6">
+                <label for="star6">★</label>
+                <input type="radio" name="rating" id="star5" value="5">
+                <label for="star5">★</label>
+                <input type="radio" name="rating" id="star4" value="4">
+                <label for="star4">★</label>
+                <input type="radio" name="rating" id="star3" value="3">
+                <label for="star3">★</label>
+                <input type="radio" name="rating" id="star2" value="2">
+                <label for="star2">★</label>
+                <input type="radio" name="rating" id="star1" value="1">
+                <label for="star1">★</label>
+            </div>
+            <textarea name="comment" id="comment" placeholder="Write your review here..." required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <p>© 2024 CSCI 2020U - All rights reserved.</p>
+</footer>
+<script src="js/review.js"></script>
+</body>
+</html>

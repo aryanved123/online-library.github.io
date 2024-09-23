@@ -1,0 +1,386 @@
+[
+  {
+    "title": "The Maze Runner",
+    "author": "James Dashner",
+    "yearPublished": 2009,
+    "isbn": "9780385737951",
+    "img-src": "bookReviewClient/images/mazerunner.png",
+    "synp": "The Maze Runner\" by James Dashner: In a dystopian world, a group of young boys finds themselves trapped in a mysterious maze with no memory of their past. As they struggle to survive and escape, they uncover dark secrets about their purpose and the world outside."
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "yearPublished": 2008,
+    "isbn": "9780439023481",
+    "img-src": "bookReviewClient/images/hungergames.png",
+    "synp": "The Hunger Games\" trilogy by Suzanne Collins: In a post-apocalyptic society, the Capitol forces each of its twelve districts to send a teenage boy and girl to compete in the Hunger Games, a televised fight to the death. Katniss Everdeen volunteers to take her sister's place, sparking a rebellion against the oppressive regime."
+  },
+  {
+    "title": "Mockingjay",
+    "author": "Suzanne Collins",
+    "yearPublished": 2010,
+    "isbn": "9780439023511",
+    "img-src": "bookReviewClient/images/mock.png",
+    "synp": "\"Mockingjay\" by Suzanne Collins: As the rebellion against the Capitol intensifies, Katniss becomes the symbol of hope for the oppressed districts. With the help of her friends, she embarks on a mission to overthrow the Capitol and its tyrannical leader, President Snow."
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "yearPublished": 1997,
+    "isbn": "9780747532743",
+    "img-src": "bookReviewClient/images/harry.png",
+    "synp": "Harry Potter and the Sorcerer's Stone\" by J.K. Rowling: Harry Potter, an orphaned boy, discovers he is a wizard on his eleventh birthday and is invited to attend Hogwarts School of Witchcraft and Wizardry. There, he learns about his magical heritage and begins his journey to confront the dark wizard who killed his parents."
+  },
+  {
+    "title": "Charlotte's Web",
+    "author": "E.B. White",
+    "yearPublished": 1952,
+    "isbn": "9780064400558",
+    "img-src": "bookReviewClient/images/charlotte.png",
+    "synp": "Charlotte's Web\" by E.B. White: A heartwarming tale of friendship between a pig named Wilbur and a wise spider named Charlotte. Charlotte uses her web-spinning abilities to save Wilbur from being slaughtered, teaching him and the reader about the true meaning of friendship and sacrifice."
+  },
+  {
+    "title": "Allegiant",
+    "author": "Veronica Roth",
+    "yearPublished": 2013,
+    "isbn": "9780062024060",
+    "img-src": "bookReviewClient/images/allegiant.png",
+    "synp": "Allegiant\" by Veronica Roth: In the conclusion to the \"Divergent\" trilogy, Tris Prior and Tobias Eaton uncover the truth about their dystopian society beyond the walls of Chicago. As they venture into the unknown, they must confront difficult choices and sacrifice everything to secure a better future for themselves and their loved ones."
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "yearPublished": 2003,
+    "isbn": "9781594480003",
+    "img-src": "bookReviewClient/images/the_kite_runner.png",
+    "synp": "The Kite Runner\" by Khaled Hosseini: Set in Afghanistan, this novel follows the lifelong friendship between Amir, the privileged son of a wealthy businessman, and Hassan, the son of his father's servant. Their bond is tested by betrayal, guilt, and redemption amidst the backdrop of a changing Afghanistan."
+  },
+  {
+    "title": "Orbiting Jupiter",
+    "author": "Gary D. Schmidt",
+    "yearPublished": 2015,
+    "isbn": "9780544462229",
+    "img-src": "bookReviewClient/images/jupiter.png",
+    "synp": "Orbiting Jupiter\" by Gary D. Schmidt: Twelve-year-old Jack's life is turned upside down when his foster brother, Joseph, comes to live with his family. Joseph is a troubled fourteen-year-old who has been in juvenile detention and is searching for his infant daughter, Jupiter, whom he has never met."
+  },
+  {
+    "title": "Paper Towns",
+    "author": "John Green",
+    "yearPublished": 2008,
+    "isbn": "9780142414934",
+    "img-src": "bookReviewClient/images/paper.png",
+    "synp": "Paper Towns\" by John Green: Quentin Jacobsen embarks on a journey to find his enigmatic neighbor and childhood crush, Margo Roth Spiegelman, after she mysteriously disappears. As Quentin follows clues left by Margo, he discovers the complexities of friendship, love, and identity"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "yearPublished": 2012,
+    "isbn": "9780142424179",
+    "img-src": "bookReviewClient/images/fault.png",
+    "synp": "The Fault in Our Stars\" by John Green: Hazel Grace Lancaster, a sixteen-year-old cancer patient, meets and falls in love with Augustus Waters, a fellow cancer survivor, at a support group. Together, they embark on a journey to Amsterdam to meet Hazel's favorite author and confront the fragility of life and the power of love."
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "yearPublished": 2005,
+    "isbn": "9780375842207",
+    "img-src": "bookReviewClient/images/bookthief.png",
+    "synp": "The Book Thief\" by Markus Zusak: Narrated by Death, this novel follows Liesel Meminger, a young girl living in Nazi Germany, who steals books to cope with the trauma of her past and the horrors of the war. Through her relationships with her foster family and a Jewish fist fighter hiding in their basement, Liesel learns about the resilience of the human spirit."
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "yearPublished": 2019,
+    "isbn": "9781250301697",
+    "img-src": "bookReviewClient/images/silentpatient.png",
+    "synp": "The Silent Patient\" by Alex Michaelides: Alicia Berenson, a famous painter, is accused of murdering her husband and then goes mute, refusing to speak a word. Theo Faber, a psychotherapist, becomes obsessed with uncovering the truth behind her silence and delves into Alicia's past to unravel the mystery."
+  },
+  {
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "yearPublished": 1993,
+    "isbn": "9780544336261",
+    "img-src": "bookReviewClient/images/giver.png",
+    "synp": "The Giver\" by Lois Lowry: In a seemingly perfect society where all pain and suffering have been eradicated, twelve-year-old Jonas is chosen to be the Receiver of Memories and learns the dark truths about his community's past. With this knowledge, he must decide whether to conform or rebel against the system."
+  },
+  {
+    "title": "The Cruel Prince",
+    "author": "Holly Black",
+    "yearPublished": 2018,
+    "isbn": "9780316310314",
+    "img-src": "bookReviewClient/images/cruelprince.png",
+    "synp": "The Cruel Prince\" by Holly Black: Jude, a mortal girl, navigates the treacherous politics of the Faerie Court after her parents are murdered and she and her sisters are taken to live in the realm of Faerie. Amidst betrayal and intrigue, Jude seeks power and acceptance in a world where she is considered an outsider."
+  },
+  {
+    "title": "The Wicked King",
+    "author": "Holly Black",
+    "yearPublished": 2019,
+    "isbn": "9780316310352",
+    "img-src": "bookReviewClient/images/wickedking.png",
+    "synp": "The Wicked King\" by Holly Black: In the sequel to \"The Cruel Prince,\" Jude finds herself entangled in a web of deceit and power struggles as she attempts to control the Faerie Court. With enemies closing in on all sides, Jude must make alliances and sacrifices to maintain her hold on power."
+  },
+  {
+    "title": "The Queen of Nothing",
+    "author": "Holly Black",
+    "yearPublished": 2019,
+    "isbn": "9780316310420",
+    "img-src": "bookReviewClient/images/queenofnothing.png",
+    "synp": "The Queen of Nothing\" by Holly Black: In the thrilling conclusion to the \"Folk of the Air\" trilogy, Jude must confront her past and face her greatest adversaries to reclaim her place in the Faerie Court. With the fate of both the mortal and Faerie worlds at stake, Jude's cunning and strength are put to the ultimate test."
+  },
+  {
+    "title": "Vicious",
+    "author": "V.E. Schwab",
+    "yearPublished": 2013,
+    "isbn": "9780765335340",
+    "img-src": "bookReviewClient/images/vicious.png",
+    "synp": "Vicious\" by V.E. Schwab: Victor and Eli, once college roommates, become bitter enemies after a scientific experiment gives them extraordinary abilities. Years later, they reunite for a deadly game of revenge that blurs the lines between heroism and villainy."
+  },
+  {
+    "title": "Vengeful",
+    "author": "V.E. Schwab",
+    "yearPublished": 2018,
+    "isbn": "9780765387561",
+    "img-src": "bookReviewClient/images/vengeful.png",
+    "synp": "Vengeful\" by V.E. Schwab: In the sequel to \"Vicious,\" new characters with extraordinary abilities are introduced as Victor and Eli's paths collide once again in a battle for power and control. As old wounds reopen and new alliances form, the line between good and evil becomes increasingly blurred."
+  },
+  {
+    "title": "Caraval",
+    "author": "Stephanie Garber",
+    "yearPublished": 2017,
+    "isbn": "9781250095251",
+    "img-src": "bookReviewClient/images/caraval.png",
+    "synp": "Caraval\" by Stephanie Garber: Scarlett Dragna has long dreamed of attending Caraval, a legendary game where the audience participates in the show. When she finally receives an invitation, Scarlett and her sister Tella become immersed in a world of magic, mystery, and danger, where nothing is as it seems."
+  },
+  {
+    "title": "Legendary",
+    "author": "Stephanie Garber",
+    "yearPublished": 2018,
+    "isbn": "9781250095312",
+    "img-src": "bookReviewClient/images/legendary.png",
+    "synp": "\"Legendary\" by Stephanie Garber: In the sequel to \"Caraval,\" Tella Dragna becomes a player in the dangerous game of Caraval, risking everything to uncover the truth about her mother's disappearance. As she navigates the twists and turns of the game, Tella discovers dark secrets about her family and herself."
+  },
+  {
+    "title": "Finale",
+    "author": "Stephanie Garber",
+    "yearPublished": 2019,
+    "isbn": "9781250157668",
+    "img-src": "bookReviewClient/images/finale.png",
+    "synp": "Finale\" by Stephanie Garber: In the thrilling conclusion to the Caraval trilogy, sisters Scarlett and Tella must confront their destinies and face off against the sinister Master of Caraval to save their loved ones and unravel the mysteries of the magical game."
+  },
+  {
+    "title": "Clockwork Angel",
+    "author": "Cassandra Clare",
+    "yearPublished": 2010,
+    "isbn": "9781416975861",
+    "img-src": "bookReviewClient/images/clockworkangel.png",
+    "synp": "Clockwork Angel\" by Cassandra Clare: Set in Victorian London, Tessa Gray discovers she has the ability to shape-shift and is thrust into a world of demons, warlocks, and Shadowhunters. With the help of the enigmatic Will Herondale and Jem Carstairs, Tessa navigates a dangerous conspiracy that threatens the Shadowhunter world."
+  },
+  {
+    "title": "Clockwork Prince",
+    "author": "Cassandra Clare",
+    "yearPublished": 2011,
+    "isbn": "9781416975885",
+    "img-src": "bookReviewClient/images/clockworkprince.png",
+    "synp": "Clockwork Prince\" by Cassandra Clare: In the sequel to \"Clockwork Angel,\" Tessa Gray's heart is torn between two Shadowhunters, Will Herondale and Jem Carstairs, as she uncovers dark secrets about her past and the true nature of her powers."
+  },
+  {
+    "title": "Daisy Jones & The Six",
+    "author": "Taylor Jenkins Reid",
+    "yearPublished": 2019,
+    "isbn": "9781524798628",
+    "img-src": "bookReviewClient/images/daisy.png",
+    "synp": "Daisy Jones & The Six\" by Taylor Jenkins Reid: This novel chronicles the rise and fall of a fictional 1970s rock band, Daisy Jones & The Six, through a series of interviews with band members and those close to them. As the band's fame grows, so do the tensions and conflicts that ultimately lead to their breakup."
+  },
+  {
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "yearPublished": 2018,
+    "isbn": "9780735219090",
+    "img-src": "bookReviewClient/images/crawdads.png",
+    "synp": "Where the Crawdads Sing\" by Delia Owens: In a quiet town on the North Carolina coast, the mysterious \"Marsh Girl\" Kya Clark grows up alone in the wild after being abandoned by her family. When a local man is found dead, Kya becomes the prime suspect, and the town's secrets are slowly revealed."
+  },
+  {
+    "title": "Shadow and Bone",
+    "author": "Leigh Bardugo",
+    "yearPublished": 2012,
+    "isbn": "9780805094596",
+    "img-src": "bookReviewClient/images/shadowand.png",
+    "synp": "Shadow and Bone\" by Leigh Bardugo: Alina Starkov discovers she has a rare magical power that could be the key to saving her war-torn country from the Shadow Fold, a dark and dangerous force filled with monsters. As she trains with the elite Grisha, Alina uncovers secrets about her past and her true destiny."
+  },
+  {
+    "title": "Vow of Thieves",
+    "author": "Mary E. Pearson",
+    "yearPublished": 2019,
+    "isbn": "9781250162655",
+    "img-src": "bookReviewClient/images/vowof.png",
+    "synp": "Vow of Thieves\" by Mary E. Pearson: In the sequel to \"Dance of Thieves,\" Queen Kazi of Venda and former thief Jase Ballenger must navigate political intrigue and betrayal as they work together to protect their kingdom from external threats. With enemies closing in on all sides, Kazi and Jase's bond is tested in ways they never imagined."
+  },
+  {
+    "title": "Dance of Thieves",
+    "author": "Mary E. Pearson",
+    "yearPublished": 2018,
+    "isbn": "9781250159013",
+    "img-src": "bookReviewClient/images/danceofthieves.png",
+    "synp": "Dance of Thieves\" by Mary E. Pearson: In the aftermath of a war, former soldier and current leader of the Ballenger Empire, Jase Ballenger, crosses paths with Kazi, a skilled thief from the rival kingdom of Venda. As they are forced to work together to uncover a dangerous conspiracy, they must confront their pasts and their growing attraction to each other."
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "yearPublished": 2018,
+    "isbn": "9780316556347",
+    "img-src": "bookReviewClient/images/circe.png",
+    "synp": "Circe\" by Madeline Miller: This novel reimagines the story of Circe, a minor goddess in Greek mythology who is banished to the island of Aiaia. As she grapples with her powers and her place in the world of gods and mortals, Circe encounters famous figures from mythology and discovers her own strength and resilience."
+  },
+  {
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "yearPublished": 2011,
+    "isbn": "9780062060624",
+    "img-src": "bookReviewClient/images/songofach.png",
+    "synp": "The Song of Achilles\" by Madeline Miller: Narrated by Patroclus, this novel tells the story of his relationship with the legendary Greek hero Achilles, from their childhood friendship to their roles in the Trojan War. Through Patroclus's perspective, readers witness the complexities of love, friendship, and destiny."
+  },
+  {
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "yearPublished": 1996,
+    "isbn": "9780553103540",
+    "img-src": "bookReviewClient/images/got.png",
+    "synp": "A Game of Thrones\" by George R.R. Martin: In the first book of the \"A Song of Ice and Fire\" series, noble families of Westeros vie for control of the Iron Throne in a deadly game of politics and betrayal. Meanwhile, an ancient evil threatens to return to the realm as winter approaches."
+  },
+  {
+    "title": "Throne of Glass",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2012,
+    "isbn": "9781619630345",
+    "img-src": "bookReviewClient/images/thoneof.png",
+    "synp": "Throne of Glass\" series by Sarah J. Maas: Celaena Sardothien, a notorious assassin, is offered her freedom in exchange for competing to become the King's Champion. As she navigates deadly trials and political intrigue, Celaena uncovers dark secrets about her past and her true destiny."
+  },
+  {
+    "title": "Crown of Midnight",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2013,
+    "isbn": "9781619630628",
+    "img-src": "bookReviewClient/images/crownof.png",
+    "synp": "Crown of Midnight\" by Sarah J. Maas: In the second book of the \"Throne of Glass\" series, Celaena Sardothien serves as the King's Champion while secretly working to undermine his oppressive regime. As she uncovers dark secrets about her past and the kingdom of Adarlan, Celaena must navigate political intrigue and dangerous enemies to protect those she loves."
+  },
+  {
+    "title": "Heir of Fire",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2014,
+    "isbn": "9781619630659",
+    "img-src": "bookReviewClient/images/heirof.png",
+    "synp": "Heir of Fire\" by Sarah J. Maas: In the third installment of the \"Throne of Glass\" series, Celaena Sardothien travels to Wendlyn to train with the Fae warrior Rowan Whitethorn and confront her painful past. Meanwhile, Chaol Westfall struggles to navigate the treacherous politics of Adarlan as rebellion brews and ancient forces awaken."
+  },
+  {
+    "title": "Queen of Shadows",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2015,
+    "isbn": "9781619636040",
+    "img-src": "bookReviewClient/images/queenof.png",
+    "synp": "Queen of Shadows\" by Sarah J. Maas: In the fourth book of the \"Throne of Glass\" series, Aelin Galathynius returns to Adarlan as the rightful queen, determined to overthrow the tyrannical King and free her people. With the help of her loyal friends and allies, Aelin faces her greatest challenges yet and prepares for the ultimate battle against darkness."
+  },
+  {
+    "title": "Empire of Storms",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2016,
+    "isbn": "9781619636071",
+    "img-src": "bookReviewClient/images/empireof.png",
+    "synp": "Empire of Storms\" by Sarah J. Maas: In the fifth installment of the \"Throne of Glass\" series, Aelin Galathynius and her companions journey across the sea to rally allies for their impending war against the dark forces threatening their world. As alliances are forged and secrets are revealed, Aelin must confront her destiny and make unimaginable sacrifices to save her kingdom."
+  },
+  {
+    "title": "Tower of Dawn",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2017,
+    "isbn": "9781619637023",
+    "img-src": "bookReviewClient/images/towerof.png",
+    "synp": "Tower of Dawn\" by Sarah J. Maas: In this companion novel to the \"Throne of Glass\" series, Chaol Westfall travels to the Southern Continent to seek allies for Aelin's war against darkness. As he grapples with his own injuries and demons, Chaol uncovers a conspiracy that threatens to plunge the entire world into chaos."
+  },
+  {
+    "title": "Kingdom of Ash",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2018,
+    "isbn": "9781619636101",
+    "img-src": "bookReviewClient/images/kingdomofash.png",
+    "synp": "Kingdom of Ash\" by Sarah J. Maas: In the epic conclusion to the \"Throne of Glass\" series, Aelin Galathynius and her allies prepare for their final battle against the dark forces of Erawan and Maeve. As armies clash and sacrifices are made, Aelin must harness all of her power and courage to save her kingdom and fulfill her destiny."
+  },
+  {
+    "title": "The Assassin's Blade",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2014,
+    "isbn": "9781619633612",
+    "img-src": "bookReviewClient/images/assasinsblade.png",
+    "synp": "The Assassin's Blade\" by Sarah J. Maas: This collection of prequel novellas follows the adventures of Celaena Sardothien before the events of the \"Throne of Glass\" series. From her time as Adarlan's most feared assassin to her encounters with dangerous enemies and unexpected allies, Celaena's journey shapes her into the legendary assassin known as Aelin Galathynius."
+  },
+  {
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "yearPublished": 2015,
+    "isbn": "9781250080400",
+    "img-src": "bookReviewClient/images/nightingale.png",
+    "synp": "The Nightingale\" by Kristin Hannah: Set in Nazi-occupied France, this novel follows the lives of two sisters, Vianne and Isabelle, as they resist the German occupation in their own ways. Through their courage, sacrifice, and love, they find strength amidst the horrors of war."
+  },
+  {
+    "title": "These Violent Delights",
+    "author": "Chloe Gong",
+    "yearPublished": 2020,
+    "isbn": "9781534457690",
+    "img-src": "bookReviewClient/images/theseviolent.png",
+    "synp": "These Violent Delights\" by Chloe Gong: In 1920s Shanghai, Juliette Cai and Roma Montagov, heirs to rival gangs, must set aside their differences to uncover the source of a mysterious madness plaguing their city. As they delve deeper into the conspiracy, they confront their own complicated past and forbidden love."
+  },
+  {
+    "title": "We Hunt the Flame",
+    "author": "Hafsah Faizal",
+    "yearPublished": 2019,
+    "isbn": "9780374311544",
+    "img-src": "bookReviewClient/images/wehunt.png",
+    "synp": "We Hunt the Flame\" by Hafsah Faizal: In a world inspired by ancient Arabia, Zafira hunts in the cursed forest of the Arz to feed her people, while Nasir, the prince of darkness, hunts her down at the command of his father, the sultan. Their paths collide as they embark on a quest to restore magic to their land and defeat a dark force threatening their world."
+  },
+  {
+    "title": "We Free the Stars",
+    "author": "Hafsah Faizal",
+    "yearPublished": 2021,
+    "isbn": "9780374311575",
+    "img-src": "bookReviewClient/images/wefree.png",
+    "synp": "We Free the Stars\" by Hafsah Faizal: In the thrilling conclusion to the Sands of Arawiya duology, Zafira and Nasir must gather allies and harness their newfound powers to overthrow the tyrant ruler and save their kingdom from destruction. As they face betrayal and sacrifice, they discover the true meaning of courage and freedom."
+  },
+  {
+    "title": "Heartless",
+    "author": "Marissa Meyer",
+    "yearPublished": 2016,
+    "isbn": "9781250044655",
+    "img-src": "bookReviewClient/images/heartless.png",
+    "synp": "Heartless\" by Marissa Meyer: This reimagining of \"Alice in Wonderland\" explores the origins of the Queen of Hearts, a young girl named Catherine who dreams of opening a bakery but is pressured into marrying the King of Hearts. As her dreams are threatened, Catherine's descent into darkness transforms her into the notorious ruler feared by all."
+  },
+  {
+    "title": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2015,
+    "isbn": "9781619634447",
+    "img-src": "bookReviewClient/images/thorns.png",
+    "synp": "A Court of Thorns and Roses\" series by Sarah J. Maas: Feyre Archeron, a young huntress, is captured by a powerful faerie named Tamlin and taken to the mystical land of Prythian as punishment for killing a wolf. As she navigates the dangerous court politics and uncovers secrets about her own past, Feyre must confront her growing feelings for Tamlin and the dark forces threatening their world."
+  },
+  {
+    "title": "A Court of Mist and Fury",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2016,
+    "isbn": "9781619634461",
+    "img-src": "bookReviewClient/images/mist.png",
+    "synp": "A Court of Mist and Fury\" by Sarah J. Maas: In the second book of the \"A Court of Thorns and Roses\" series, Feyre Archeron grapples with the aftermath of her traumatic experiences Under the Mountain. As she navigates her new life in the Spring Court and her complicated relationship with the High Lord of the Night Court, Rhysand, Feyre discovers her own strength and destiny amidst the brewing war."
+  },
+  {
+    "title": "A Court of Wings and Ruin",
+    "author": "Sarah J. Maas",
+    "yearPublished": 2017,
+    "isbn": "9781619634485",
+    "img-src": "bookReviewClient/images/wings.png",
+    "synp": "A Court of Wings and Ruin\" by Sarah J. Maas: In the thrilling conclusion to the \"A Court of Thorns and Roses\" trilogy, Feyre Archeron must gather allies and prepare for war against the dark forces threatening Prythian. With the fate of her world hanging in the balance, Feyre confronts her past and embraces her power to fight for love, freedom, and justice."
+  },
+  {
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "yearPublished": 1992,
+    "isbn": "9781400031702",
+    "img-src": "bookReviewClient/images/secret.png",
+    "synp": "The Secret History\" by Donna Tartt: Richard Papen, a transfer student at an elite college in Vermont, becomes entangled in a group of eccentric and enigmatic classmates who study ancient Greek. As they delve deeper into their studies, the group becomes consumed by jealousy, obsession, and ultimately, murder."
+  }
+]

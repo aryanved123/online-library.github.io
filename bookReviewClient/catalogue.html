@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue - Our Bookstore</title>
+    <link rel="stylesheet" href="css/catalogue.css">
+</head>
+<body>
+<header>
+    <h1>Our Bookstore Catalogue</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="catalogue.html" class="active">Catalogue</a></li>
+            <li><a href="account.html">My Account</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Description Section -->
+<section class="description-section">
+    <section class="description">
+        <p>Discover your next great read in our catalogue! Explore a selection of captivating stories across genres. From thrilling mysteries to heartwarming romances, find the perfect book for your next adventure. Happy reading!</p>
+    </section>
+</section>
+
+<!-- Search Bar -->
+<div class="search-container">
+    <label for="searchInput"></label>
+    <input type="text" id="searchInput" placeholder="Search by title...">
+    <!-- Add search icon using Font Awesome -->
+    <button onclick="searchBooks()" class="search-button"><i class="fas fa-search"></i>Search</button>
+</div>
+<main>
+    <!-- Favorites Section -->
+    <section class="favorites-section">
+        <h2>Favorites</h2>
+        <div class="favorites" id="favorite-books">
+            <!-- Favorite books will be dynamically added here -->
+        </div>
+    </section>
+</main>
+<main>
+    <!-- Book Grid Section -->
+    <section class="book-grid-section" id="book-grid-section">
+        <section class="book-grid">
+            <div class="book">
+                <img src="images/mazerunner.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Maze Runner')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/hungergames.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Hunger Games')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/mock.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Mockingjay')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/harry.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Harry Potter and the Sorcerer\'s Stone')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/charlotte.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Charlotte\'s Web')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/allegiant.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Allegiant')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/the_kite_runner.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Kite Runner')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/jupiter.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Orbiting Jupiter')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/paper.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Paper Towns')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/bookthief.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Book Thief')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/silentpatient.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Silent Patient')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/giver.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Giver')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/cruelprince.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Cruel Prince')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/wickedking.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Wicked King')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/queenofnothing.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Queen of Nothing')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/vicious.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Vicious')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/vengeful.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Vengeful')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/caraval.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Caraval')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/legendary.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Legendary')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/finale.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Finale')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/clockworkangel.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Clockwork Angel')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/clockworkprince.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Clockwork Prince')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/daisy.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Daisy Jones & The Six')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/crawdads.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Where the Crawdads Sing')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/shadowand.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Shadow and Bone')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/vowof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Vow of Thieves')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/danceofthieves.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Dance of Thieves')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/circe.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Circe')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/songofach.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Song of Achilles')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/got.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'A Game of Thrones')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/thoneof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Throne of Glass')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/thoneof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Throne of Glass')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/crownof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Crown of Midnight')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/heirof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Heir of Fire')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/queenof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Queen of Shadows')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/empireof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Empire of Storms')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/towerof.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Tower of Dawn')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/kingdomofash.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Kingdom of Ash')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/assasinsblade.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Assassin\'s Blade')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/nightingale.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Nightingale')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/theseviolent.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'These Violent Delights')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/wehunt.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'We Hunt the Flame')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/wefree.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'We Free the Stars')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/heartless.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'Heartless')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/thorns.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'A Court of Thorns and Roses')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/mist.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'A Court of Mist and Fury')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/wings.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'A Court of Wings and Ruin')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+            <div class="book">
+                <img src="images/secret.png" alt="Book Title">
+                <div class="buttons">
+                    <button onclick="Info(this, 'The Secret History')">Information</button>
+                    <button onclick="downloadBook(this)">Download</button>
+                    <button onclick="addToFavorites(this)" class="favorite-button">&#9825;</button>
+                </div>
+            </div>
+        </section>
+    </section>
+</main>
+<footer>
+    <p>© 2024 Our Bookstore. All rights reserved.</p>
+</footer>
+<script src="js/catalogue.js"></script>
+</body>
+</html>
